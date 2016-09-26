@@ -1,0 +1,13 @@
+{
+  "parts": [
+    {
+      "name": "ep_chatdate",
+      "hooks": {
+        "eejsBlock_styles":"ep_chatdate/index:eejsBlock_styles"
+      },
+      "client_hooks": {
+        "chatNewMessage":"ep_chatdate/static/js/main:chatNewMessage"
+      }
+    }
+  ]
+}
